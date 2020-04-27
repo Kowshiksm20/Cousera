@@ -1,0 +1,189 @@
+*
+{
+box-sizing: border-box;
+ margin: 0;
+padding: 0;
+}
+body
+{
+	background-color:grey;
+
+}
+h1
+{
+	font-family: Franklin Gothic Medium;
+	margin-bottom:5%;
+	margin-top: 2%;
+}
+.container
+{
+	width:100%;
+	height: 100%;
+}
+
+  .d1
+  {
+  	float: left;
+  	background-color: Red;
+  	height:220px;
+  	border-style: inset;
+  	text-align: justify;
+  	text-justify: inter-word;
+  }
+   .d1 section
+  {
+  	width:180px;
+  	height:40px;
+  	background-color: #373737;
+  	text-align: center;
+	  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color:white;
+	font-size: 30px;
+  	float: right;
+  	border-style: inset;
+  }
+  .d1 p
+  {
+  	margin-top: 15%;
+  	font-family: lato;
+  	margin-left: 10px;
+  	margin-right: 10px;
+  }
+  .d2
+  {
+  	height: 220px;
+  	float :left;
+	  background-color: blueviolet;
+  	border-style: inset;
+  	text-align: justify;
+  	text-justify: inter-word;
+  }
+  .d2 section
+  {
+  	width:150px;
+  	height:40px;
+  	background-color:#373737;
+  	text-align: center;
+	  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	  color:white;
+
+  	font-size: 30px;
+  	float: right;
+  	border-style: inset;
+  }
+  .d2 p
+  {
+  	margin-top: 15%;
+  	font-family: lato;
+  	margin-left: 10px;
+  	margin-right: 10px;
+
+  }
+  .d3
+  {
+  	float :left;
+  	background-color: green;
+  	border-style: inset;
+  	text-align: justify;
+  	text-justify: inter-word;
+  }
+  .d3 section
+  {
+  	width:150px;
+  	height:40px;
+  	background-color: #373737;
+  	text-align: center;
+	  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	  font-size: 30px;
+	  color:white;
+  	float: right;
+  	border-style: inset;
+  }
+  .d3 p
+  {
+  	font-family: lato;
+  	margin-left: 10px;
+  	margin-right: 10px;
+  }
+/********** Large devices only **********/
+@media (min-width: 992px) {
+
+  .d1
+  {
+  	width:30%;
+  	margin-left: 2%;
+  }
+
+  .d2
+  {
+  	width:30%;
+  	margin-left: 3%;
+  }
+  .d3
+  {
+  	width:30%;
+  	margin-left: 3%;
+  	height: 220px;
+
+  }
+  .d3 p
+  {
+  	margin-top: 15%;
+  }
+
+}
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.d1
+  {
+  	width:45%;
+  	margin-left: 2.5%;
+  }
+
+  .d2
+  {
+  	width:45%;
+  	margin-left: 5%;
+  }
+  .d3
+  {
+  	width:94.5%;
+  	margin-left: 2.5%;
+  	margin-top: 2%;
+  	height: 200px;
+  	margin-bottom: 5%;
+  }
+  .d3 p
+  {
+  	margin-top: 10%;
+  }
+}
+
+/********** small devices only **********/
+@media (max-width: 767px) {
+
+  .d1
+  {
+  	width:90%;
+  	margin-left: 5%
+  }
+
+  .d2
+  {
+  	width:90%;
+  	margin-left: 5%;
+  	margin-top: 2%;
+  }
+  .d3
+  {
+  	width:90%;
+  	margin-left: 5%;
+  	margin-top: 2%;
+  	height: 250px;
+  	margin-bottom: 5%;
+  }
+  .d3 p
+  {
+  	margin-top: 15%;
+  }
+}
